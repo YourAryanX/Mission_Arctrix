@@ -1,0 +1,18 @@
+# Arctrix
+> Architecting Tomorrow.
+
+Arctrix is a futuristic, AI-driven technology brand building real problem-solving products. We merge deep psychology, elegant aesthetics, and cutting-edge engineering to forge tools that genuinely solve problems.
+
+## Products
+
+### QuantC
+Zero-knowledge, AES-256 encrypted file sharing platform. True anonymity. Transfer up to 1GB+ seamlessly without logs or accounts.
+- URL: https://quantc-arya.vercel.app/
+
+### xWavy
+AI-powered audio enhancement app for Android. Effortlessly isolate vocals and eradicate background noise for studio-grade sound.
+- URL: https://xwavy.vercel.app/
+
+## Contact
+- Email: contact@arctrix.com
+- Website: https://arctrix.vercel.app/

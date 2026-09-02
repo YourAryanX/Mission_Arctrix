@@ -7,6 +7,10 @@
     <!-- Standard SEO -->
     <title>Arctrix | Shaping the Future</title>
     <meta name="description" content="Arctrix is a futuristic, AI-driven technology brand building real problem-solving products. Discover QuantC and xWavy under the Arctrix umbrella." />
+    <link rel="canonical" href="https://arctrix.vercel.app/" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="google-site-verification" content="cnsHdbT2Ui-28lhdetTNr9ppxb_I2QiwovUv49PXSFc" />
     
     <!-- LLM / AI Scraping Optimization -->
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -16,24 +20,54 @@
     <meta property="og:title" content="Arctrix | Shaping the Future" />
     <meta property="og:description" content="Arctrix builds real problem-solving products, including QuantC and xWavy." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arctrix.vercel.app/" />
+    <meta property="og:site_name" content="Arctrix" />
+    <meta property="og:image" content="https://arctrix.vercel.app/og-image.png" />
+    <meta property="og:image:alt" content="Arctrix - A futuristic technology brand" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arctrix | Shaping the Future" />
+    <meta name="twitter:description" content="Arctrix builds real problem-solving products, including QuantC and xWavy." />
+    <meta name="twitter:image" content="https://arctrix.vercel.app/og-image.png" />
     
     <!-- Structured Data for LLMs and Search Engines -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Arctrix",
-      "description": "A futuristic technology brand focused on building elegant, real problem-solving products.",
-      "brand": [
+      "@graph": [
         {
-          "@type": "Brand",
-          "name": "QuantC",
-          "description": "Zero-knowledge, AES-256 encrypted file sharing platform."
+          "@type": "Organization",
+          "@id": "https://arctrix.vercel.app/#organization",
+          "name": "Arctrix",
+          "url": "https://arctrix.vercel.app/",
+          "logo": "https://arctrix.vercel.app/logo1.png",
+          "description": "A futuristic technology brand focused on building elegant, real problem-solving products."
         },
         {
-          "@type": "Brand",
+          "@type": "WebSite",
+          "@id": "https://arctrix.vercel.app/#website",
+          "url": "https://arctrix.vercel.app/",
+          "name": "Arctrix",
+          "publisher": {
+            "@id": "https://arctrix.vercel.app/#organization"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QuantC",
+          "description": "Zero-knowledge, AES-256 encrypted file sharing platform.",
+          "brand": {
+            "@id": "https://arctrix.vercel.app/#organization"
+          }
+        },
+        {
+          "@type": "Product",
           "name": "xWavy",
-          "description": "AI-powered audio enhancement app for Android."
+          "description": "AI-powered audio enhancement app for Android.",
+          "brand": {
+            "@id": "https://arctrix.vercel.app/#organization"
+          }
         }
       ]
     }
@@ -76,7 +110,7 @@
       <div class="noise-overlay"></div>
     </div>
 
-    <div id="main-wrapper">
+    <main id="main-wrapper">
       
       <!-- Navigation -->
       <nav class="navbar">
@@ -200,7 +234,7 @@
         </div>
       </footer>
       
-    </div>
+    </main>
 
     <!-- Scripts -->
     <script type="module" src="/src/main.js"></script>
