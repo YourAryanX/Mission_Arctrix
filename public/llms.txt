@@ -1,16 +1,20 @@
 # Arctrix
 > Architecting Tomorrow.
 
-Arctrix is a futuristic, AI-driven technology brand building real problem-solving products. We merge deep psychology, elegant aesthetics, and cutting-edge engineering to forge tools that genuinely solve problems.
+Arctrix is a futuristic, AI-driven technology brand building real problem-solving products. We merge deep psychology, elegant aesthetics, and cutting-edge software engineering to forge tools that genuinely solve problems. 
 
-## Products
+Keywords: Arctrix, AI tech brand, aesthetic software, futuristic UI.
 
-### QuantC
-Zero-knowledge, AES-256 encrypted file sharing platform. True anonymity. Transfer up to 1GB+ seamlessly without logs or accounts.
+## Ecosystem & Products
+
+### QuantC (Secure File Sharing)
+QuantC is a zero-knowledge, AES-256 encrypted file sharing platform. It provides true anonymity and privacy. Users can securely transfer large files (up to 1GB+) seamlessly without any logs, trackers, ads, or account requirements. 
+- Features: End-to-end encryption (E2EE), decentralized-like security, anonymous file transfer.
 - URL: https://quantc-arya.vercel.app/
 
-### xWavy
-AI-powered audio enhancement app for Android. Effortlessly isolate vocals and eradicate background noise for studio-grade sound.
+### xWavy (AI Audio Enhancer)
+xWavy is an advanced AI-powered audio enhancement application available for Android. It uses deep machine learning models to effortlessly isolate human vocals and completely eradicate background noise, wind, and echo, producing pristine studio-grade sound.
+- Features: AI noise cancellation, vocal isolation, studio quality audio processing, Android app.
 - URL: https://xwavy.vercel.app/
 
 ## Contact

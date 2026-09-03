@@ -14,10 +14,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Standard SEO -->
-    <title>Arctrix | Shaping the Future</title>
-    <meta name="description" content="Arctrix is a futuristic, AI-driven technology brand building real problem-solving products. Discover QuantC and xWavy under the Arctrix umbrella." />
+    <title>Arctrix | AI Innovation & Encrypted Technologies</title>
+    <meta name="description" content="Arctrix is a futuristic technology brand. We build QuantC (AES-256 encrypted file sharing) and xWavy (AI audio enhancement for Android). Discover our ecosystem." />
+    <meta name="keywords" content="arctrix, quantc, xwavy, encrypted file sharing, ai audio enhancer, zero-knowledge, remove background noise android" />
     <link rel="canonical" href="https://arctrix.vercel.app/" />
     <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000" />
     <meta name="google-site-verification" content="cnsHdbT2Ui-28lhdetTNr9ppxb_I2QiwovUv49PXSFc" />
     
@@ -51,22 +57,30 @@
           "name": "Arctrix",
           "url": "https://arctrix.vercel.app/",
           "logo": "https://arctrix.vercel.app/logo1.png",
-          "description": "A futuristic technology brand focused on building elegant, real problem-solving products."
+          "description": "A futuristic technology brand focused on building elegant, real problem-solving products like QuantC and xWavy.",
+          "sameAs": [
+            "https://twitter.com/arctrix",
+            "https://instagram.com/arctrix"
+          ]
         },
         {
           "@type": "WebSite",
           "@id": "https://arctrix.vercel.app/#website",
           "url": "https://arctrix.vercel.app/",
           "name": "Arctrix",
+          "description": "AI & Encrypted Technologies Ecosystem",
           "publisher": {
             "@id": "https://arctrix.vercel.app/#organization"
           }
         },
         {
-          "@type": "Product",
+          "@type": "SoftwareApplication",
           "name": "QuantC",
           "image": "https://arctrix.vercel.app/logo1.png",
-          "description": "Zero-knowledge, AES-256 encrypted file sharing platform.",
+          "description": "Zero-knowledge, AES-256 encrypted file sharing platform. Securely transfer files up to 1GB+ anonymously.",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "Web",
+          "url": "https://quantc-arya.vercel.app/",
           "brand": {
             "@type": "Brand",
             "name": "Arctrix"
@@ -74,15 +88,17 @@
           "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
+            "priceCurrency": "USD"
           }
         },
         {
-          "@type": "Product",
+          "@type": "SoftwareApplication",
           "name": "xWavy",
           "image": "https://arctrix.vercel.app/logo2.jpg",
-          "description": "AI-powered audio enhancement app for Android.",
+          "description": "AI-powered audio enhancement app for Android. Isolate vocals and eradicate background noise.",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "Android",
+          "url": "https://xwavy.vercel.app/",
           "brand": {
             "@type": "Brand",
             "name": "Arctrix"
@@ -90,9 +106,37 @@
           "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
+            "priceCurrency": "USD"
           }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Arctrix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Arctrix is a futuristic, AI-driven technology brand focused on building deeply immersive and elegant products that solve real problems, such as QuantC for secure file sharing and xWavy for AI audio enhancement."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How secure is QuantC?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "QuantC utilizes AES-256 end-to-End encryption and a zero-knowledge architecture. It operates entirely anonymously without logging user data or requiring accounts for transferring files up to 1GB+."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does xWavy do?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "xWavy is an AI-powered audio enhancement application for Android. It uses advanced machine learning to isolate vocals and eradicate background noise, providing studio-grade sound for your recordings."
+              }
+            }
+          ]
         }
       ]
     }
@@ -191,11 +235,11 @@
               <div class="card-glow quantc-glow"></div>
               <div class="card-logo-container">
                 <!-- User Uploaded Logo -->
-                <img src="/logo1.png" alt="QuantC Logo" class="product-logo" />
+                <img src="/logo1.png" alt="QuantC - Zero Knowledge Encrypted File Sharing" class="product-logo" />
               </div>
               <h3 class="product-name">QuantC</h3>
-              <p class="product-desc">Zero-knowledge, AES-256 encrypted file sharing. True anonymity. Transfer up to 1GB+ seamlessly without logs or accounts.</p>
-              <span class="btn-link">Launch QuantC <i class="fa-solid fa-arrow-right"></i></span>
+              <p class="product-desc">Zero-knowledge, <strong>AES-256 encrypted file sharing</strong>. True anonymity. Securely transfer up to 1GB+ seamlessly without logs, ads, or accounts.</p>
+              <span class="btn-link" aria-label="Launch QuantC Secure File Sharing">Launch QuantC <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
             </a>
           </div>
           
@@ -205,11 +249,11 @@
               <div class="card-glow xwavy-glow"></div>
               <div class="card-logo-container">
                 <!-- User Uploaded Logo -->
-                <img src="/logo2.jpg" alt="xWavy Logo" class="product-logo round-logo" />
+                <img src="/logo2.jpg" alt="xWavy - AI Audio Enhancer for Android" class="product-logo round-logo" />
               </div>
               <h3 class="product-name">xWavy</h3>
-              <p class="product-desc">AI-powered audio enhancement for Android. Effortlessly isolate vocals and eradicate background noise for studio-grade sound.</p>
-              <span class="btn-link">Launch xWavy <i class="fa-solid fa-arrow-right"></i></span>
+              <p class="product-desc"><strong>AI-powered audio enhancement</strong> for Android. Effortlessly isolate vocals and eradicate background noise for pristine, studio-grade sound.</p>
+              <span class="btn-link" aria-label="Launch xWavy AI Audio Enhancer">Launch xWavy <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
             </a>
           </div>
           
@@ -225,6 +269,29 @@
             <p class="about-lead">Futuristic inspired. Driven by impact.</p>
             <p class="about-details">At Arctrix, we believe that software should not just function; it should captivate. We merge deep psychology, elegant aesthetics, and cutting-edge engineering to forge tools that genuinely solve problems.</p>
             <p class="about-details">From ensuring absolute digital privacy to refining the nuances of human voice via AI, our relentless pursuit of perfection defines everything we build.</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- FAQ Section (SEO & AEO) -->
+      <section id="faq" class="about-section semantic-section" style="padding-top: 2rem;">
+        <div class="about-container">
+          <div class="about-text-content" style="width: 100%;">
+            <h2 class="about-title" style="font-size: 2.5rem; text-align: center; margin-bottom: 2rem;">Frequently Asked <span class="text-glow">Questions</span></h2>
+            <div class="faq-accordion" style="display: flex; flex-direction: column; gap: 1rem;">
+              <details class="faq-item" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; cursor: pointer;">
+                <summary style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 600; color: #fff; outline: none; list-style: none; display: flex; justify-content: space-between; align-items: center;">What is Arctrix? <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: rgba(255,255,255,0.5);"></i></summary>
+                <p style="margin-top: 1rem; color: rgba(255, 255, 255, 0.7); font-size: 1rem; line-height: 1.6;">Arctrix is a futuristic, AI-driven technology brand focused on building deeply immersive and elegant products that solve real problems. Our flagship products include QuantC for secure file sharing and xWavy for AI audio enhancement.</p>
+              </details>
+              <details class="faq-item" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; cursor: pointer;">
+                <summary style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 600; color: #fff; outline: none; list-style: none; display: flex; justify-content: space-between; align-items: center;">How secure is QuantC? <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: rgba(255,255,255,0.5);"></i></summary>
+                <p style="margin-top: 1rem; color: rgba(255, 255, 255, 0.7); font-size: 1rem; line-height: 1.6;">QuantC utilizes state-of-the-art AES-256 end-to-end encryption and a zero-knowledge architecture. It operates entirely anonymously without logging user data or requiring accounts for transferring files up to 1GB+.</p>
+              </details>
+              <details class="faq-item" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.5rem; cursor: pointer;">
+                <summary style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 600; color: #fff; outline: none; list-style: none; display: flex; justify-content: space-between; align-items: center;">What does xWavy do? <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: rgba(255,255,255,0.5);"></i></summary>
+                <p style="margin-top: 1rem; color: rgba(255, 255, 255, 0.7); font-size: 1rem; line-height: 1.6;">xWavy is an AI-powered audio enhancement application for Android. It uses advanced machine learning algorithms to instantly isolate vocals and eradicate background noise, providing pristine, studio-grade sound for your recordings.</p>
+              </details>
+            </div>
           </div>
         </div>
       </section>
